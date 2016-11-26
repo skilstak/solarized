@@ -86,7 +86,7 @@ colors, we include it all the same.  Simply printing them will clear
 faster than anything possible on an ANSI terminal. Combining this
 with other writes provides for rudimentary animation possibilities.
 
-## 20 Lines of Node Code
+## 20 Lines of Code
 
 That’s right, you don’t even need this module really. Just cut and
 paste some variation of the following right into your own code. We
@@ -94,6 +94,8 @@ created the node module to be seen and encourage people to stop using
 heavier terminal color solutions. We have also included a Mac
 [solarized-dark.terminal](solarized-dark.terminal) and a few other
 files that match it.
+
+### Node
 
 ```js
 m = module.exports
@@ -123,7 +125,7 @@ m.colors = [ m.yellow, m.orange, m.red, m.magenta, m.violet, m.blue,
 m.cyan, m.green ]
 ```
 
-## Go
+### Go
 
 This repo also has the Go equivalents so it can be used as follows or
 just cut and paste into your own code.
@@ -192,7 +194,7 @@ const (
 var Colors = []string{Y, O, R, M, V, B, C, G}
 ```
 
-## Python
+### Python
 
 ```python
 #!/usr/bin/env python3
