@@ -1,6 +1,6 @@
 {
   "name": "solarized",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Solarized theme terminal string colors with zero dependencies and function calls",
   "main": "index.js",
   "repository": "skilstak/solarized",
