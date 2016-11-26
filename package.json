@@ -1,0 +1,38 @@
+{
+  "name": "solarized",
+  "version": "1.2.3",
+  "description": "Solarized theme terminal string colors with zero dependencies and function calls",
+  "main": "index.js",
+  "repository": "skilstak/solarized",
+  "homepage": "http://solarized.skilstak.io",
+  "bugs": "https://github.com/skilstak/solarized/issues",
+  "keywords": [
+    "solarized",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "str",
+    "ansi",
+    "style",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "bin": {
+    "solarized": "./solarized.js",
+    "colors": "./solarized.js"
+  },
+  "license": "MIT"
+}

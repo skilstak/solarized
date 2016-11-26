@@ -1,0 +1,34 @@
+{
+   "nassh" : {
+   },
+   "magic" : "nassh-prefs",
+   "hterm" : {
+      "default" : {
+         "color-palette-overrides" : {
+            "8" : "#002b36",
+            "0" : "#073642",
+            "6" : "#2aa198",
+            "13" : "#6c71c4",
+            "5" : "#d33682",
+            "2" : "#859900",
+            "9" : "#cb4b16",
+            "12" : "#839496",
+            "14" : "#93a1a1",
+            "7" : "#eee8d5",
+            "11" : "#657b83",
+            "3" : "#b58900",
+            "1" : "#dc322f",
+            "15" : "#fdf6e3",
+            "10" : "#586e75",
+            "4" : "#268bd2"
+         },
+         "background-color": "#073642",
+         "font-family" : "\"Consolas\", \"Monaco\", \"DejaVu Sans Mono\", \"Everson Mono\", FreeMono, \"Menlo\", \"Terminal\", monospace",
+         "cursor-color": "#eee8d5",
+         "foreground-color": "#eee8d5",
+         "enable-bold" : true,
+         "font-size" : 16
+      }
+   },
+   "version" : 1
+}
