@@ -25,5 +25,4 @@ reset = x = Reset = X = '\x1b[0m'
 screen = clear = Screen = Clear = s = S  = '\x1b[2J\x1b[H'
 line = l = Line = L = '\x1b[2K\x1b[G'
 
-// nice when picking a random color
 colors = [ y, o, r, m, v, b, c, g ]
