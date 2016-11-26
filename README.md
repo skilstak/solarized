@@ -86,7 +86,7 @@ colors, we include it all the same.  Simply printing them will clear
 faster than anything possible on an ANSI terminal. Combining this
 with other writes provides for rudimentary animation possibilities.
 
-## 20 Lines of Code
+## 20 Lines of Node Code
 
 That’s right, you don’t even need this module really. Just cut and
 paste some variation of the following right into your own code. We
@@ -121,4 +121,73 @@ m.line = m.l = m.Line = m.L = '\x1b[2K\x1b[G'
 // nice when picking a random color
 m.colors = [ m.yellow, m.orange, m.red, m.magenta, m.violet, m.blue,
 m.cyan, m.green ]
+```
+
+## Go
+
+This repo also has the Go equivalents so it can be used as follows or
+just cut and paste into your own code.
+
+```go
+package main
+
+import (
+    c "github.com/skilstak/solarized"
+    "fmt"
+)
+
+func main() {
+    fmt.Println(c.Screen + c.R + "Hello " + c.Y + "world!")
+}
+```
+
+Here’s the whole Go code:
+
+```go
+package solarized
+
+const (
+	Base03    = "\033[1;30m"
+	B03       = Base03
+	Base02    = "\033[0;30m"
+	B02       = Base02
+	Base01    = "\033[1;32m"
+	B01       = Base01
+	Base00    = "\033[1;33m"
+	B00       = Base00
+	Base0     = "\033[1;34m"
+	B0        = Base0
+	Base1     = "\033[1;36m"
+	B1        = Base1
+	Base2     = "\033[0;37m"
+	B2        = Base2
+	Base3     = "\033[1;37m"
+	B3        = Base3
+	Yellow    = "\033[0;33m"
+	Y         = Yellow
+	Orange    = "\033[1;31m"
+	O         = Orange
+	Red       = "\033[0;31m"
+	R         = Red
+	Magenta   = "\033[0;35m"
+	M         = Magenta
+	Violet    = "\033[1;35m"
+	V         = Violet
+	Blue      = "\033[0;34m"
+	B         = Blue
+	Cyan      = "\033[0;36m"
+	C         = Cyan
+	Green     = "\033[0;32m"
+	G         = Green
+	Reset     = "\033[0m"
+	X         = Reset
+	Screen    = "\033[2J\033[H"
+	S         = Screen
+	Clear     = Screen
+	Line      = "\033[2K\033[G"
+	L         = Line
+	Clearline = Line
+)
+
+var Colors = []string{Y, O, R, M, V, B, C, G}
 ```
